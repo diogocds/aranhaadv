@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-image: url(../img/img-section.jpg);
+  padding: 0 100px;
+  color: white;
+}
+
+.div-section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1100px;
+  height: 100vh;
+}
+
+.div-section-one h1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 120px;
+  font-weight: bold;
+}
+
+.dashboard {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1180px;
+  width: 100%;
+  height: 200px;
+  margin: 50px auto;
+  margin-top: -80px;
+  border-radius: 25px;
+  background: rgb(15, 15, 15);
+}
+
+.dashboard img {
+  width: 200px;
+  margin: 30px 50px;
+
+}
+
+.dashboard p {
+  font-size: 25px;
+  margin: 75px;
+
+}
+
+.logo-img {
+  font-size: 200px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.div-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  color: white;
+  background: rgb(15, 15, 15);
+}
+
+.apresentacao-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0px auto;
+  font-weight: bold;
+}
+
+.apresentacao a {
+  max-width: 400px;
+}
+
+.apresentacao img {
+  max-width: 400px;
+  height: 300px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.apresentacao-ico i {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.apresentacao-ico i {
+  font-size: 30px;
+}
+
+.apresentacao-ico-all {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.reviews {
+  display: flex;
+  max-width: 1100px;
+  height: 300px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  justify-content: center;
+  transition: all ease-in 2ms;
+}
+
+.review strong {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.review:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(8, 8, 8, 0.8);
+}
+
+.client-reviews,
+.contact-form {
+  display: block;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: black;
+}
+
+.client-reviews h2,
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  border: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.contact-form textarea {
+  border: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.form {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.help-section {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.help-section p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.help-section h2 {
+  margin-bottom: 50px;
+  color: black;
+  text-align: center;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.action-button {
+  color: black;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  height: 70px;
+  background-color: rgba(230, 202, 125, 0.8);
+  transition: background-color 0.3s;
+}
+
+.btn-whatsapp a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+}
+
+.action-button:hover {
+  background-color: rgb(207, 169, 64);
+}
+
+.contato-whtsapp img {
+  width: 70px;
+
+}
+
+.contato-whtsapp {
+  right: 50px;
+  bottom: 30px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 9999;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar {
+  0% {
+    bottom: 20px;
+  }
+
+  100% {
+    bottom: 30px;
+  }
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1180px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.map-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  width: 100%;
+}
+
+.map-footer h1 {
+  margin-bottom: 40px;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* max-width: 1180px; */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgb(15, 15, 15);
+}
+
+.logo-footer img {
+  max-width: 300px;
+  margin: 50px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  gap: 25px;
+  border-top: 1px solid white;
+  background: rgb(15, 15, 15);
+}
+
+.copyright i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+
+  h1,
+  h2 {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-section-one {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .div-section-one h1 {
+    display: block;
+    position: absolute;
+    width: 90%;
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .div-section-one a {
+    margin-top: 20px;
+  }
+
+  .div-section-one img {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-width: 350px;
+    min-height: 600px;
+    align-items: center;
+    margin-top: 300px;
+  }
+
+  .div-section-two {
+    height: 850px;
+
+  }
+
+  .apresentacao-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .apresentacao-ico {
+    width: 100%;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+
+  .apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .apresentacao img {
+    max-width: 340px;
+  }
+
+  .apresentacao a {
+    width: 340px;
+  }
+
+  .dashboard {
+    display: block;
+    max-width: 360px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .client-reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .client-reviews h1 {
+    margin-bottom: 70px;
+
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .review {
+    height: 300px;
+    margin-bottom: 100px;
+  }
+
+  .action-button {
+    width: 300px;
+    height: 70px;
+  }
+
+  .footer-content {
+    display: block;
+  }
+
+  .contato-whtsapp img {
+    width: 50px;
+  }
+
+  .help-section h2 {
+    margin-bottom: 50px;
+  }
+
+  .map-footer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .copyright {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+}
