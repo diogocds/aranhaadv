@@ -40,6 +40,7 @@ h2 {
   justify-content: space-between;
   max-width: 1100px;
   height: 100vh;
+  margin-top: 120px;
 }
 
 .div-section-one h1 {
@@ -48,8 +49,11 @@ h2 {
   width: 50%;
   font-size: 50px;
   text-align: left;
-  padding-top: 120px;
   font-weight: bold;
+  padding-top: 40px;
+}
+.div-section-one a {
+  margin-top: 20px;
 }
 
 .dashboard {
@@ -326,7 +330,6 @@ h2 {
   align-items: center;
   justify-content: center;
   position: relative;
-  /* max-width: 1180px; */
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -370,6 +373,7 @@ h2 {
   .div-section-one {
     display: flex;
     justify-content: center;
+    margin-top: 80px;
   }
 
 
@@ -377,9 +381,10 @@ h2 {
     display: block;
     position: absolute;
     width: 90%;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
+    padding-top: 0px;
   }
 
   .div-section-one a {
@@ -387,13 +392,14 @@ h2 {
   }
 
   .div-section-one img {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     min-width: 350px;
     min-height: 600px;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .div-section-two {
